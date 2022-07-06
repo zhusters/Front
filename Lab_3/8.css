@@ -1,0 +1,29 @@
+.accordion{
+	background-color: silver;
+	color: #444;
+	cursor: pointer;
+	width: 100%;
+	height: 50px;
+	border:0px;
+	margin: 10px 0px 10px 0px;
+	outline:none;
+	border-radius: 15px;
+}	
+/*кнопка при фокусировке на ней*/
+.accordion:hover{
+	background: #ddd;
+}
+/*текст до нажатия*/
+div.panel{
+	display: none;
+}
+/*тект после нажатия*/
+div.panel.show{
+	display: block;
+}
+/*кнопка в момент нажатия*/
+.accordion:active{
+	background: pink;
+
+}
+

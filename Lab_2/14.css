@@ -1,0 +1,27 @@
+div
+{	
+	font-family: "Arial", sans-serif;
+	font-size: 23px;
+	margin-top: 8em;
+	text-align: center;
+
+}
+a
+{
+	text-decoration: none;
+	padding: 10px;
+	padding-bottom: 9px;
+
+}
+a:hover
+{
+	background: red;
+	text-decoration: underline;
+	
+} 
+a::after
+{
+	text-decoration: underline;
+}
+
+

@@ -1,0 +1,14 @@
+div
+{
+	width: 100px;
+	height: 100px;
+	background: red;
+	position: absolute;
+	margin-top: 20em;
+	margin-left: 35em;
+	
+}
+body
+{
+	background-color: black;
+}

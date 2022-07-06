@@ -1,0 +1,38 @@
+body
+{
+	background: silver;
+
+}
+.BB
+{
+	background: red;
+	border-radius: 50%;
+	width: 20em;
+	height: 20em;
+	position: absolute;	
+	top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.SB
+{
+	background: black;
+	border-radius: 50%;
+	width: 15em;
+	height: 15em;
+	position: absolute;	
+	top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.author
+{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+
+}

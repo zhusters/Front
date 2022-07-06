@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 1500px;
+    box-sizing: border-box;
+    height: 280px;
+    margin: 20px 50px;
+    padding: 10px;
+    background: silver url("https://ic.pics.livejournal.com/pamur777/73964262/99668/99668_600.jpg") no-repeat  5% 35%;
+	background-size: 16.5%;
+	position: relative;
+}
+a {
+	display: block;
+	/*text-transform: uppercase;*/
+	text-decoration: none;
+	font-family: sans-serif;
+	color: white;
+	font-weight: bold;
+}
+.list {
+  background-color: #4072B7;
+	position: absolute;
+	top: 75px;
+	left: 400px;
+	box-shadow: 344px 3px 0px -26px #4072B7;
+}
+.list a {
+ 	padding: 5px 15px;
+	font-size: 44px;
+	width: 500px;
+	box-sizing: border-box;
+}
+
+.resource {
+  background-color: #E90000;
+	position: absolute;
+	top: 62%;
+	left: 34%;
+	box-shadow: 200px 1px 0px -26px #E90000;
+}
+.resource a {
+ 	width:615px;
+	padding: 5px;
+	line-height: 2.4;
+	font-size: 20px;
+	box-sizing: border-box;
+	text-align: center;
+}

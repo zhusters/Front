@@ -1,0 +1,63 @@
+body
+{
+	font-family: sans-serif;
+}
+header
+{
+
+}
+nav
+{
+	background: silver;
+	font-weight: bold;
+	width: 1200px;
+  	margin: 10px;
+  	padding: 20px;
+  	background-color: #575757;
+}
+ul
+{
+	font-size: 0;
+ 	margin: 0;
+ 	padding: 40px;
+ 	list-style: none;
+  	border: 1px solid #626262;
+  	border-radius: 3px;
+
+}
+li
+{
+	font-size: 15px;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+}
+a
+{
+	color: white;
+
+}
+
+li:nth-child(3) a, 
+li:nth-child(5) a
+{
+	padding: 15px;
+}
+
+li:nth-child(4) a,
+li:nth-child(6) a
+{
+	border-right: 2px solid silver;
+}
+button
+{
+	position: relative;
+	vertical-align: middle;
+	width: 10px; /* Ширина кнопки */
+    height: 10px; /* Высота кнопки */
+}
+input	
+{
+	width: 300px;
+
+}

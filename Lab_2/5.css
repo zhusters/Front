@@ -1,0 +1,19 @@
+.silver
+{
+	font-size: 30px;
+	background-color: silver;
+	text-align: auto;
+}
+.scroll
+{
+	background-color: silver;
+	overflow-x: auto;
+}
+.answer
+{
+	font-size: 40px;
+}
+.n1
+{
+	background: red;
+}

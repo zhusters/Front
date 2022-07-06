@@ -1,0 +1,31 @@
+.table{
+	height: auto;
+	width: 600px;
+	background: cyan;
+	margin: auto;
+	border: 3px solid black;
+	border-radius: 10px;
+
+}
+
+.tableheader{
+	height: 60px;
+	background: cyan;
+	border-radius: 10px;
+
+
+}
+
+.li, #number2, #number3, #number1{
+	list-style-type: none;
+	display: block;
+	float: left;
+	margin: 10px 90px 10px 90px;
+	border: 2px solid black;
+	border-radius: 5px;
+	font-size: 30px;
+}
+.div, #body1,#body2,#body3{
+	font-family: sans-serif;
+	font-size: 30px;
+}

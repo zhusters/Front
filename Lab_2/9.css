@@ -1,0 +1,21 @@
+body
+{
+	background: silver;
+
+}
+.box
+{
+
+	background: silver;
+	overflow-x:scroll;
+
+}
+.img
+{
+	height: 280px;
+	width: 380px;
+	background:url(https://cs7.pikabu.ru/post_img/big/2019/06/07/10/1559926748121425662.png);
+	margin: 15px;
+	
+	float: left;
+}

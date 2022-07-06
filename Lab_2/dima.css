@@ -1,0 +1,35 @@
+/* Reset styles */
+        html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, 
+        label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup, 
+        menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+        article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+        body {line-height: 1;}
+        ol, ul {list-style: none;}
+        blockquote, q {quotes: none;}
+        blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+        table {border-collapse: collapse; border-spacing: 0;}
+
+        
+
+        /* Real styles */
+        body{font-family: "AkrobatExtraBold", Helvetica, sans-serif;}
+        #bg{position: fixed; z-index: -1; top: 0; left: 0; min-height: 100%; min-width: 100%;}
+        #container {position: fixed; top: 50%; left: 50%; margin-top: -510px; margin-left: -440px; width: 880px; height: 1020px; background-color: #ffffff; border-radius: 20px;}
+        #content{position: absolute; width: 647px; height: 1023px; top: -140px; left: 114px;}
+        #description{width: 100%; height: 464px; text-align: center;}
+        .img-circle{width: 280px; border-radius: 50%;}
+        .upper{text-transform:uppercase ;}
+        p{color: #ffffff; font-size: 36px; padding-bottom: 41px; padding-top: 14px;}
+        #description p{font-size: 36px;}
+        .link{width: 100%; height: 95px;background-color: #ffffff; border-radius: 100px; text-align: center;}
+        .link-width{width: 557px;}
+        a{text-decoration: none; color: #ffffff; text-align: center;}
+        .white{color: #ffffff; padding-top: 28px;}
+        #social-content{width: 100%; height: 464px;}
+        .social{width: 100%; height: 95px; padding-top: 35px;}
+        .absolute{position: absolute;}
+        .margin{margin-left: 100px;}
+        .img-container{width: 90px; height: 95px;}
+        .img-container img{width: 85px; padding-left: 5px; padding-top: 5px;}
+

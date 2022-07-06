@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1</title>
+	<link rel="stylesheet" type="text/css" href="1.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<script type="text/javascript" src="1.js"></script>
+	<form id="myform">
+
+		<input type="text" name="num1" placeholder="num1" id="a">	
+		<input type="text" name="num2" placeholder="num2" id="b">
+		<input type="text" name="num3" placeholder="num3 " id="c">
+		<input value="нажми меня нежно" type="button" onclick="sum()"></input>
+		<p >res=<span id="res"></span> </p>
+	</form>
+		
+
+<script>
+
+//let res=Number(0)
+function sum(){
+	let a = document.getElementById("a").value;
+	let b = document.getElementById("b").value;
+	let c = document.getElementById("c").value;
+	//let res= a+b+c;
+	let res= Number(a)+Number(b)+Number(c);
+	document.getElementById("res").innerHTML=res;
+	//document.getElementById('p1').innerHTML = sum;
+	
+}
+</script>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+body
+{
+	font-size: 20px;
+	background:url(https://pub-static.fotor.com/static/web/site/features/backgrounds/images/Fotor-wall-background-image-6.jpg);
+}
+.news
+{
+	width: :500px;
+	text-align: center;
+}
+.window
+{
+	display: inline-block;
+	background:;
+	text-align: left;
+}	
+.menu {
+    position: fixed;
+    top: 10%;
+    left: 8%;
+    width: 8%;
+    height: 10%;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+	padding-left: 2%;
+	}
